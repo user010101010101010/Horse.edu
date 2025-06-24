@@ -5,20 +5,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ошибка</title>
+    <title>404</title>
     <link rel="stylesheet" href="stylesheets/style.css">
     <script src="javascripts/main.js"></script>
 </head>
 
 <body>
-    <nav>
-        <a href="library.html">Библиотека</a>
-        <a href="shop.html">Магазин</a>
-        <a href="faculties.html">Факультеты</a>
-        <a href="campus.html">О нас</a>
-        <a href="index.html">Главная</a>
-        <a href="campus.html">Кампус</a>
-    </nav>
+    <div class="header">
+        <a class="logo black" href="index.html">HES University</a>
+        <div class="header_elements">
+            <a class="header_element_1 black" href="faculties.html">Факультеты</a>
+            <a class="header_element_2 black" href="shop.html">Магазин</a>
+            <a class="header_element_3 black" href="campus.html">Кампус</a>
+            <a class="header_element_4 black" href="about.html">О нас</a>
+        </div>
+    </div>
+
+    <section class="error_blok">
+        <h1 class="error_title">Ошибка 404</h1>
+        <div class="error_not">Страница не найдена</div>
+        <a class="error_button" href="index.html">
+            <span class="error_button_text">Вернуться на главную</span>
+            <img class="error_button_img" src="img/img_index/button_3_line.svg" alt="">
+        </a>
+        <img class="error_img" src="img/error.svg" alt="">
+    </section>
+
 </body>
 
 </html>
