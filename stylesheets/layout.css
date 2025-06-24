@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: #F2F2F2;
     -webkit-font-smoothing: antialiased;
@@ -524,7 +527,8 @@ body {
         height: 2.292vw;
         border: 0.104vw solid #FFFFFF;
         border-radius: 2.083vw;
-        padding: 0.278vw 0.833vw 0.278vw 0.833vw;
+        justify-content: center;
+        align-items: center;
         white-space: nowrap;
         top: 0vw;
         left: 0vw;
@@ -542,7 +546,8 @@ body {
         height: 2.292vw;
         border: 0.104vw solid #FFFFFF;
         border-radius: 2.083vw;
-        padding: 0.278vw 0.833vw 0.278vw 0.833vw;
+        justify-content: center;
+        align-items: center;
         white-space: nowrap;
         top: 0vw;
         left: 0vw;
@@ -599,7 +604,8 @@ body {
     height: 2.292vw;
     border: 0.104vw solid #000000;
     border-radius: 2.083vw;
-    padding: 0.278vw 0.833vw 0.278vw 0.833vw;
+    justify-content: center;
+    align-items: center;
     white-space: nowrap;
     top: 0vw;
     left: 0vw;
@@ -617,7 +623,8 @@ body {
     height: 2.292vw;
     border: 0.104vw solid #000000;
     border-radius: 2.083vw;
-    padding: 0.278vw 0.833vw 0.278vw 0.833vw;
+    justify-content: center;
+    align-items: center;
     white-space: nowrap;
     top: 0vw;
     left: 0vw;
@@ -667,7 +674,8 @@ body {
     height: 2.292vw;
     border: 0.104vw solid #FFFFFF;
     border-radius: 2.083vw;
-    padding: 0.278vw 0.833vw 0.278vw 0.833vw;
+    justify-content: center;
+    align-items: center;
     white-space: nowrap;
     top: 0vw;
     left: 0vw;
@@ -685,7 +693,8 @@ body {
     height: 2.292vw;
     border: 0.104vw solid #FFFFFF;
     border-radius: 2.083vw;
-    padding: 0.278vw 0.833vw 0.278vw 0.833vw;
+    justify-content: center;
+    align-items: center;
     white-space: nowrap;
     top: 0vw;
     left: 0vw;
@@ -804,6 +813,7 @@ input:focus {
     outline: none;
 }
 .form_button {
+    transition: transform 0.3s ease;
     cursor: pointer;
     border: none;
     outline: none;
@@ -819,6 +829,9 @@ input:focus {
     padding-left: 1.25vw;
     gap: 0.903vw;
     white-space: nowrap;
+}
+.form_button:active {
+    transform: scale(0.98);
 }
 .form_button_text {
     font-family: 'Roboto';
@@ -1364,3 +1377,1093 @@ input:focus {
     font-size: 1.389vw;
     line-height: 1.806vw;
 }
+
+/* ---------------------section3------------------------- */
+
+.article2_blok3 {
+    width: 89.583vw;
+    height: 27.5vw;
+    display: flex;
+    margin-left: 5.208vw;
+    margin-right: 5.208vw;
+    background-color: #FFFFFF;
+    border-radius: 2.083vw;
+}
+
+.article2_blok3_inner {
+    position: relative;
+    display: flex;
+    width: 84.028vw;
+    height: 21.944vw;
+    margin: 2.778vw;
+}
+
+.article2_blok3_text {
+    width: 34.792vw;
+    height: 15.694vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+}
+
+.article2_blok3_buttons {
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    gap: 1.042vw;
+}
+
+.article2_blok3_button1,
+.article2_blok3_button2 {
+    width: 3.472vw;
+    height: 3.472vw;
+}
+
+.article2_blok3_button1 {
+    rotate: 180deg;
+}
+
+.article2_blok3_img1,
+.article2_blok3_img2 {
+    right: 0;
+    position: absolute;
+    width: 38.75vw;
+    height: 21.944vw;
+}
+
+.article2_blok3_img2 {
+    opacity: 0;
+}
+
+.article2_blok3_text_var1,
+.article2_blok3_text_var2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.article2_blok3_title1,
+.article2_blok3_title2 {
+    font-size: 2.083vw;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #000000;
+}
+
+.article2_blok3_text1,
+.article2_blok3_text2,
+.article2_blok3_text3,
+.article2_blok3_text4 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #000000;
+    font-size: 1.389vw;
+    line-height: normal;
+    margin-top: 2.778vw;
+}
+
+.article2_blok3_text_var1 {
+    opacity: 0;
+}
+
+.article2_blok3_text_var2 {
+    opacity: 1;
+}
+
+.article2_blok3_text_var1,
+.article2_blok3_text_var2,
+.article2_blok3_img1,
+.article2_blok3_img2 {
+    transition: opacity 0.5s ease;
+}
+
+.article2_blok3_button1,
+.article2_blok3_button2 {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.article2_blok3_button1:hover,
+.article2_blok3_button2:hover {
+    transform: scale(1.1);
+}
+
+/* -------------------------------------article 3------------------------------------ */
+
+/* ---------------------section-1------------------------- */
+
+.article3_blok1 {
+    margin-top: 12.361vw;
+    margin-left: 5.208vw;
+    margin-right: 5.208vw;
+    margin-bottom: 5.556vw;
+    width: 89.583vw;
+    height: 39.15vw;
+    overflow: hidden;
+    position: relative;
+}
+
+.article3_blok1_title {
+    padding-top: 0.486vw;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 6.25vw;
+    color: #000000;
+    line-height: 6.806vw;
+}
+
+.article3_blok1_buttons {
+    margin-top: 2.778vw;
+    display: flex;
+    gap: 1.042vw;
+}
+
+.article3_blok1_button1 {
+    display: inline-flex;
+    width: 13.264vw;
+    height: 3.125vw;
+    border: 0.104vw solid #486DFF;
+    border-radius: 2.083vw;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.article3_blok1_button2 {
+    display: inline-flex;
+    width: 17.986vw;
+    height: 3.125vw;
+    border: 0.104vw solid #486DFF;
+    border-radius: 2.083vw;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.article3_blok1_button1_text,
+.article3_blok1_button2_text {
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #000000;
+    font-size: 1.389vw;
+    line-height: 1.736vw;
+}
+
+.article3_blok1_description {
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #000000;
+    font-size: 1.389vw;
+    width: 39.653vw;
+    line-height: 1.806vw;
+    margin-top: 2.778vw;
+}
+
+.article3_blok1_button3 {
+    margin-top: 2.778vw;
+    width: 17.262vw;
+    height: 3.125vw;
+    background-color: #DAF653;
+    border-radius: 2.083vw;
+    text-decoration: none;
+    display: inline-flex;
+    padding: 0.694vw 1.25vw;
+    gap: 0.903vw;
+    white-space: nowrap;
+}
+
+.article3_blok1_button3_text {
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #486DFF;
+    font-size: 1.389vw;
+    line-height: 1.736vw;
+}
+
+.article3_blok1_img {
+    position: absolute;
+    width: 33.75vw;
+    height: 34.028vw;
+    top: 0;
+    right: 0;
+}
+
+/* ---------------------section2------------------------- */
+
+.article3_blok2 {
+    width: 89.583vw;
+    height: 28.889vw;
+    display: flex;
+    margin-left: 5.208vw;
+    margin-right: 5.208vw;
+    margin-bottom: 2.778vw;
+    background-color: #FFFFFF;
+    border-radius: 2.083vw;
+}
+.article3_blok2_inner {
+    gap: 2.778vw;
+    display: flex;
+    width: 84.028vw;
+    height: 23.333vw;
+    margin: 2.778vw;
+}
+.article3_blok2_img {
+    width: 34.722vw;
+    height: 23.333vw;
+}
+.article3_blok2_text {
+    width: 46.528vw;
+    height: 23.333vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+}
+.article3_blok2_title {
+    width: 35.972vw;
+    font-size: 2.083vw;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #000000;
+}
+.article3_blok2_text1 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #000000;
+    font-size: 1.389vw;
+    line-height: normal;
+    margin-top: 2.778vw;
+}
+.article3_blok2_tex2 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #000000;
+    font-size: 1.389vw;
+    line-height: normal;
+    margin-top: 2.778vw;
+}
+.article3_blok2_text_tags {
+    display: flex;
+    gap: 1.042vw;
+    margin-top: auto;
+    align-self: flex-start;
+}
+
+.tag_research {
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #486DFF;
+    font-size: 1.389vw;
+    line-height: 1.806vw;
+}
+
+.tag_skachki {
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #486DFF;
+    font-size: 1.389vw;
+    line-height: 1.806vw;
+}
+.tag_sport {
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #486DFF;
+    font-size: 1.389vw;
+    line-height: 1.806vw;
+}
+
+/* ---------------------section3------------------------- */
+
+.article3_blok3 {
+    width: 89.583vw;
+    height: 31.944vw;
+    display: flex;
+    margin-left: 5.208vw;
+    margin-right: 5.208vw;
+    background-color: #FFFFFF;
+    border-radius: 2.083vw;
+}
+.article3_blok3_inner {
+    gap: 13.889vw;
+    display: flex;
+    width: 84.028vw;
+    height: 26.389vw;
+    margin: 2.778vw;
+}
+.article3_blok3_img {
+    width: 34.722vw;
+    height: 26.389vw;
+}
+.article3_blok3_text {
+    width: 35.417vw;
+    height: 23.333vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+}
+.article3_blok3_title1, .article3_blok3_title2, .article3_blok3_title3 {
+    margin-top: 2.778vw;
+    font-size: 2.083vw;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #000000;
+}
+.article3_blok3_title1 {
+    margin-top: 0;
+}
+
+.article3_blok3_text1, .article3_blok3_text2, .article3_blok3_text3 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #000000;
+    font-size: 1.389vw;
+    line-height: normal;
+    margin-top: 1.389vw;
+}
+
+/* -------------------------------------faculties------------------------------------ */
+
+.blue {
+    color: #486DFF;
+}
+
+/* ---------------------section1------------------------- */
+
+.faculties_blok1 {
+    display: flex;
+    width: 95.833vw;
+    height: 58.611vw;
+    margin-right: 2.083vw;
+    margin-left: 2.083vw;
+    margin-top: 7.292vw;
+    margin-bottom: 5.556vw;
+    background-color: #7B95FB;
+    border-radius: 2.083vw;
+}
+.faculties_blok1_inner {
+    flex-direction: column;
+    display: flex;
+    margin: 3.125vw;
+    width: 89.583vw;
+    height: 52.361vw;
+    position: relative;
+}
+.faculties_blok1_title {
+    padding-top: 2.431vw;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 6.25vw;
+    color: #FFFFFF;
+    line-height: 6.806vw;
+}
+.faculties_blok1_button1 {
+    margin-top: 2.778vw;
+    display: inline-flex;
+    width: 22.014vw;
+    height: 3.125vw;
+    border: 0.104vw solid #FFFFFF;
+    border-radius: 2.083vw;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+}
+.faculties_blok1_button1_text {
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 1.389vw;
+    line-height: 1.736vw;
+}
+.faculties_blok1_description {
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 1.389vw;
+    width: 35.764vw;
+    line-height: 1.806vw;
+    margin-top: 2.778vw;
+}
+.faculties_blok1_scroll_button {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin-top: 2.778vw;
+    width: 14.792vw;
+    height: 3.125vw;
+    background-color: #DAF653;
+    border-radius: 2.083vw;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 1.042vw;
+    gap: 0.694vw;
+    white-space: nowrap;
+}
+.faculties_blok1_scroll_button:active {
+    transform: scale(0.98);
+}
+.faculties_blok1_scroll_button_text {
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #486DFF;
+    font-size: 1.389vw;
+    line-height: 1.736vw;
+}
+.faculties_blok1_scroll_button_img {
+    rotate: 45deg;
+    width: 0.972vw;
+}
+.student_notes {
+    z-index: 2;
+    display: flex;
+    margin-top: 3.542vw;
+    gap: 1.042vw;
+    width: 89.583vw;
+    height: 12.847vw;
+}
+.note1, .note2, .note3 {
+    border-radius: 2.083vw;
+    background-color: #FFFFFF;
+    width: 29.167vw;
+    height: 12.847vw
+}
+.note1_title, .note2_title, .note3_title {
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #000000;
+    font-size: 1.736vw;
+    line-height: 1.806vw;
+    padding-left: 2.083vw;
+    padding-top: 2.083vw;
+}
+.note1_text, .note2_text, .note3_text {
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #000000;
+    opacity: 70%;
+    font-size: 1.389vw;
+    line-height: 1.806vw;
+    margin-top: 1.389vw;
+    padding-left: 2.083vw;
+}
+.faculties_blok1_img {
+    z-index: 1;
+    position: absolute;
+    width: 41.25vw;
+    height: 52.361vw;
+    right: 0;
+    top: 0;
+}
+
+/* ---------------------section2------------------------- */
+
+.faculties_blok2 {
+    margin-left: 5.208vw;
+    margin-right: 5.208vw;
+    margin-bottom: 5.556vw;
+    width: 89.583vw;
+    height: 34.653vw;
+}
+.faculties_blok2_title {
+    font-size: 3.472vw;
+    line-height: normal;
+    font-family: 'Roboto';
+    color: #000000;
+    font-weight: 500;
+    justify-content: flex-start;
+}
+.faculties_blok2_card {
+    display: flex;
+    margin-top: 2.778vw;
+    width: 89.583vw;
+    height: 27.778vw;
+    gap: 2.778vw;
+}
+.faculties_blok2_card_photo {
+    height: 27.778vw;
+    width: 57.639vw;
+    position: relative;
+}
+.faculties_blok2_card_img {
+    height: 27.778vw;
+    width: 57.639vw;
+}
+.faculties_blok2_card_tag {
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    border-radius: 2.083vw;
+    border: 0.104vw solid #1F4CFF;
+    display: inline-flex;
+    width: 11.806vw;
+    height: 2.431vw;
+    position: absolute;
+    top: 2.083vw;
+    right: 2.083vw;
+}
+.faculties_blok2_card_tag_text {
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #1F4CFF;
+    font-size: 1.042vw;
+    line-height: 1.736vw;
+}
+.faculties_blok2_card_text {
+    display: flex;
+    flex-direction: column;
+    gap: 2.778vw;
+}
+.faculties_blok2_card_text1 {
+    background-color: #FFFFFF;
+    border-radius: 2.083vw;
+    width: 29.167vw;
+    height: 15.903vw;
+}
+.faculties_blok2_card_text2 {
+    background-color: #FFFFFF;
+    border-radius: 2.083vw;
+    width: 29.167vw;
+    height: 9.097vw;
+}
+.faculties_blok2_card_text1_title {
+    line-height: normal;
+    font-size: 2.083vw;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #000000;
+    margin-top: 2.083vw;
+    margin-left: 2.083vw;
+}
+.faculties_blok2_card_text1_main, .faculties_blok2_card_text2_main {
+    line-height: normal;
+    font-size: 1.389vw;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #000000;
+    margin-top: 2.083vw;
+    margin-left: 2.083vw;
+    opacity: 70%;
+}
+
+/* ---------------------section3------------------------- */
+
+.faculties_blok3 {
+    margin-left: 5.208vw;
+    margin-right: 5.208vw;
+    margin-bottom: 5.556vw;
+    width: 89.583vw;
+    height: 34.653vw;
+}
+
+.faculties_blok3_title {
+    font-size: 3.472vw;
+    line-height: normal;
+    font-family: 'Roboto';
+    color: #000000;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: 0;
+    width: fit-content;
+}
+
+.faculties_blok3_card {
+    display: flex;
+    margin-top: 2.778vw;
+    width: 89.583vw;
+    height: 27.778vw;
+    gap: 2.778vw;
+}
+
+.faculties_blok3_card_photo {
+    height: 27.778vw;
+    width: 57.639vw;
+    position: relative;
+}
+
+.faculties_blok3_card_img {
+    height: 27.778vw;
+    width: 57.639vw;
+}
+
+.faculties_blok3_card_tag {
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    border-radius: 2.083vw;
+    border: 0.104vw solid #DAF653;
+    display: inline-flex;
+    width: 10.625vw;
+    height: 2.431vw;
+    position: absolute;
+    top: 2.083vw;
+    left: 2.083vw;
+}
+.faculties_blok3_card_tag_text {
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #DAF653;
+    font-size: 1.042vw;
+    line-height: 1.736vw;
+}
+.faculties_blok3_card_text {
+    display: flex;
+    flex-direction: column;
+    gap: 2.778vw;
+}
+
+.faculties_blok3_card_text1 {
+    background-color: #FFFFFF;
+    border-radius: 2.083vw;
+    width: 29.167vw;
+    height: 15.903vw;
+}
+
+.faculties_blok3_card_text2 {
+    background-color: #FFFFFF;
+    border-radius: 2.083vw;
+    width: 29.167vw;
+    height: 9.097vw;
+}
+
+.faculties_blok3_card_text1_title {
+    line-height: normal;
+    font-size: 2.083vw;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #000000;
+    margin-top: 2.083vw;
+    margin-left: 2.083vw;
+}
+
+.faculties_blok3_card_text1_main,
+.faculties_blok3_card_text2_main {
+    line-height: normal;
+    font-size: 1.389vw;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #000000;
+    margin-top: 2.083vw;
+    margin-left: 2.083vw;
+    opacity: 70%;
+}
+
+/* ---------------------section4------------------------- */
+
+.faculties_blok4 {
+    margin-left: 5.208vw;
+    margin-right: 5.208vw;
+    margin-bottom: 5.556vw;
+    width: 89.583vw;
+    height: 34.653vw;
+}
+
+.faculties_blok4_title {
+    font-size: 3.472vw;
+    line-height: normal;
+    font-family: 'Roboto';
+    color: #000000;
+    font-weight: 500;
+    justify-content: flex-start;
+}
+
+.faculties_blok4_card {
+    display: flex;
+    margin-top: 2.778vw;
+    width: 89.583vw;
+    height: 27.778vw;
+    gap: 2.778vw;
+}
+.faculties_blok4_card_photo {
+    height: 27.778vw;
+    width: 57.639vw;
+    position: relative;
+}
+.faculties_blok4_card_img {
+    height: 27.778vw;
+    width: 57.639vw;
+}
+.faculties_blok4_card_tag {
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    border-radius: 2.083vw;
+    border: 0.104vw solid #000000;
+    display: inline-flex;
+    width: 11.528vw;
+    height: 2.431vw;
+    position: absolute;
+    top: 2.083vw;
+    right: 2.083vw;
+}
+
+.faculties_blok4_card_tag_text {
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #000000;
+    font-size: 1.042vw;
+    line-height: 1.736vw;
+}
+
+.faculties_blok4_card_text {
+    display: flex;
+    flex-direction: column;
+    gap: 2.778vw;
+}
+
+.faculties_blok4_card_text1 {
+    background-color: #FFFFFF;
+    border-radius: 2.083vw;
+    width: 29.167vw;
+    height: 15.903vw;
+}
+
+.faculties_blok4_card_text2 {
+    background-color: #FFFFFF;
+    border-radius: 2.083vw;
+    width: 29.167vw;
+    height: 9.097vw;
+}
+
+.faculties_blok4_card_text1_title {
+    line-height: normal;
+    font-size: 2.083vw;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #000000;
+    margin-top: 2.083vw;
+    margin-left: 2.083vw;
+}
+
+.faculties_blok4_card_text1_main,
+.faculties_blok4_card_text2_main {
+    line-height: normal;
+    font-size: 1.389vw;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #000000;
+    margin-top: 2.083vw;
+    margin-left: 2.083vw;
+    opacity: 70%;
+}
+
+/* ---------------------wannaknow------------------------- */
+
+.wannaknow {
+    width: 89.583vw;
+    height: 32.569vw;
+    display: flex;
+    margin-right: 5.208vw;
+    margin-left: 5.208vw;
+    background-color: #FFFFFF;
+    border-radius: 2.083vw;
+}
+.wannaknow_inner {
+    display: flex;
+    flex-direction: column;
+    margin: 2.778vw;
+    position: relative;
+    width: 84.028vw;
+    height: 27.014vw;
+    justify-content: space-between;
+}
+.wannaknow_title {
+    line-height: normal;
+    font-size: 3.472vw;
+    line-height: normal;
+    font-family: 'Roboto';
+    color: #000000;
+    font-weight: 500;
+}
+.wannaknow_text1, .wannaknow_text2 {
+    margin-top: 2.778vw;
+    line-height: 1.736vw;
+    font-size: 1.389vw;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #000000;
+    margin-top: 2.083vw;
+}
+.wannaknow_button {
+    width: 10vw;
+    height: 3.125vw;
+    background-color: #DAF653;
+    border-radius: 2.083vw;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 1.389vw;
+    gap: 0.903vw;
+    white-space: nowrap;
+    align-self: flex-start;
+    margin-top: auto;
+}
+.wannaknow_button_text {
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #486DFF;
+    font-size: 1.389vw;
+    line-height: 1.736vw;
+}
+.wannaknow_button_text_img {
+    width: 0.972vw;
+}
+.wannaknow_img {
+    width: 33.056vw;
+    height: 27.014vw;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.form {
+    scroll-margin-top: 5.556vw;
+}
+
+
+/* -------------------------------------campus------------------------------------ */
+
+/* ---------------------section1------------------------- */
+
+.campus_blok1 {
+    display: flex;
+    width: 95.833vw;
+    height: 46.944vw;   
+    margin-right: 2.083vw;
+    margin-left: 2.083vw;
+    margin-top: 7.292vw;
+    margin-bottom: 5.556vw;
+    background-color: #FFFFFF;
+    border-radius: 2.083vw;
+}
+.campus_blok1_inner {
+    flex-direction: column;
+    display: flex;
+    margin-left: 3.125vw;
+    margin-right: 3.125vw;
+    margin-top: 4.167vw;
+    margin-bottom: 2.778vw;
+    width: 89.583vw;
+    height: 40vw;
+    position: relative;
+    justify-content: space-between;
+}
+.campus_blok1_title {
+    padding-top: 1.389vw;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 6.25vw;
+    color: #000000;
+    line-height: 6.806vw;
+}
+.campus_blok1_description1 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #000000;
+    opacity: 70%;
+    font-size: 1.389vw;
+    width: 34.722vw;
+    line-height: normal;
+    margin-top: 2.778vw;
+}
+.campus_blok1_description2 {
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #000000;
+    opacity: 70%;
+    font-size: 1.389vw;
+    width: 34.722vw;
+    line-height: normal;
+    margin-top: 2.778vw;
+}
+.campus_blok1_scroll_button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin-top: 2.778vw;
+    width: 10.556vw;
+    height: 3.125vw;
+    background-color: #DAF653;
+    border-radius: 2.083vw;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 1.042vw;
+    gap: 0.694vw;
+    white-space: nowrap;
+    transition: transform 0.3s ease;
+}
+.campus_blok1_scroll_button:active {
+    transform: scale(0.98);
+}
+.campus_blok1_scroll_button_text {
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #486DFF;
+    font-size: 1.389vw;
+    line-height: 1.736vw;
+}
+.campus_blok1_scroll_button_img {
+    rotate: 45deg;
+    width: 0.972vw;
+}
+.campus_blok1_img {
+    position: absolute;
+    width: 41.319vw;
+    height: 35.139vw;
+    right: 0;
+    top: 0;
+}
+.campus_blok1_caption {
+    margin-top: auto;
+    align-self: center;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #486DFF;
+    font-size: 1.389vw;
+    line-height: 1.736vw;
+}
+
+/* ---------------------section2------------------------- */
+
+.campus_blok2 {
+    flex-direction: column;
+    gap: 2.778vw;
+    width: 95.833vw;
+    height: 151.319vw;
+    display: flex;
+    margin-left: 2.083vw;
+    margin-right: 2.083vw;
+    margin-bottom: 5.556vw;
+}
+.campus_blok2_title {
+    align-self: center;
+    font-size: 3.472vw;
+    line-height: normal;
+    font-family: 'Roboto';
+    color: #000000;
+    font-weight: 500;
+}
+.campus_blok2_festival, .campus_blok2_workshop, .campus_blok2_courses {
+    width: 95.833vw;
+    height: 46.181vw;
+    border-radius: 2.083vw;
+    display: flex;
+}
+.campus_blok2_festival {
+    background-color: #7B95FB;
+}
+.campus_blok2_workshop {
+    background-color: #F0F9C9;
+}
+.campus_blok2_courses {
+    background-color: #FFB348;
+}
+.campus_blok2_festival_inner, .campus_blok2_workshop_inner, .campus_blok2_courses_inner {
+    width: 89.583vw;
+    height: 40.625vw;
+    margin-top: 2.778vw;
+    margin-bottom: 2.778vw;
+    margin-left: 3.125vw;
+    margin-right: 3.125vw;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+.campus_blok2_festival_title, .campus_blok2_workshop_title, .campus_blok2_courses_title {
+    line-height: normal;
+    font-size: 2.083vw;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.campus_blok2_workshop_title {
+    color: #000000;
+}
+.campus_blok2_festival_text1, .campus_blok2_workshop_text1, .campus_blok2_courses_text1,
+.campus_blok2_festival_text2, .campus_blok2_workshop_text2, .campus_blok2_courses_text2 {
+    line-height: normal;
+    font-size: 1.389vw;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 2.778vw;
+}
+.campus_blok2_workshop_text1, .campus_blok2_workshop_text2 {
+    color: #000000;
+}
+.campus_blok2_festival_button, .campus_blok2_workshop_button, .campus_blok2_courses_button {
+    width: 12.847vw;
+    height: 3.125vw;
+    background-color: #DAF653;
+    border-radius: 2.083vw;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 1.389vw;
+    gap: 0.903vw;
+    white-space: nowrap;
+    margin-top: 2.778vw;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.campus_blok2_festival_button:active, .campus_blok2_workshop_button:active, .campus_blok2_courses_button:active {
+    transform: scale(0.98);
+}
+.campus_blok2_festival_button_text, .campus_blok2_workshop_button_text, .campus_blok2_courses_button_text {
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #486DFF;
+    font-size: 1.389vw;
+    line-height: 1.736vw;
+}
+.campus_blok2_festival_button_img, .campus_blok2_workshop_button_img, .campus_blok2_courses_button_img {
+    width: 0.972vw;
+}
+.campus_blok2_festival_img1, .campus_blok2_festival_img2, .campus_blok2_festival_img3,
+.campus_blok2_workshop_img1, .campus_blok2_workshop_img2, .campus_blok2_workshop_img3,
+.campus_blok2_courses_img1, .campus_blok2_courses_img2, .campus_blok2_courses_img3 {
+    width: 28.472vw;
+    height: 40.625vw;
+    position: absolute;
+    transition: opacity 0.3s ease, z-index 0.3s ease;
+}
+.campus_blok2_courses_img1, .campus_blok2_workshop_img1, .campus_blok2_festival_img1 {
+    right: 0;
+    top: 0;
+    opacity: 0.8;
+    z-index: 3;
+}
+.campus_blok2_courses_img2, .campus_blok2_workshop_img2, .campus_blok2_festival_img2 {
+    right: 14.931vw;
+    top: 0;
+    opacity: 0.5;
+    z-index: 2;
+}
+.campus_blok2_courses_img3, .campus_blok2_workshop_img3, .campus_blok2_festival_img3 {
+    right: 29.861vw;
+    top: 0;
+    opacity: 0.2;
+    z-index: 1;
+}
+.campus_blok2_festival_img1:hover,
+.campus_blok2_festival_img2:hover,
+.campus_blok2_festival_img3:hover,
+.campus_blok2_workshop_img1:hover,
+.campus_blok2_workshop_img2:hover,
+.campus_blok2_workshop_img3:hover,
+.campus_blok2_courses_img1:hover,
+.campus_blok2_courses_img2:hover,
+.campus_blok2_courses_img3:hover {
+    opacity: 1;
+    z-index: 4;
+}
+
