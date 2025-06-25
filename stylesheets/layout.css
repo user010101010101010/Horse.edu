@@ -423,6 +423,7 @@ body {
     /* ----------------бегущая строка--------------------- */
 
     .running_line2 {
+        position: relative;
         margin-top: 5.556vw;
         overflow: hidden;
         white-space: nowrap;
@@ -433,16 +434,18 @@ body {
     }
 
     .running_line_content2 {
-        padding-top: 1.285vw;
         align-items: center;
         gap: 5.208vw;
-        display: inline-flex;
-        width: max-content;
+        display: flex;
+        position: absolute;
+        top: 1.285vw;
+        left: 0;
     }
 
     .running_line_element2 {
         width: 2.292vw;
         height: 2.292vw;
+        flex-shrink: 0;
     }
 
     .running_line_text2 {
@@ -451,6 +454,7 @@ body {
         font-weight: 500;
         line-height: 1.736vw;
         color: #FFFFFF;
+        flex-shrink: 0;
     }
 
     /* ---------------------section 4------------------------- */
