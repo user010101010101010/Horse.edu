@@ -12,6 +12,29 @@
     <link rel="icon" type="image/png" sizes="32x32" href="img/img_faculties/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/img_faculties/favicon-16x16.png">
     <link rel="manifest" href="img/img_faculties/site.webmanifest">
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const block2 = document.querySelector('.faculties_blok2');
+            const block3 = document.querySelector('.faculties_blok3');
+            const block4 = document.querySelector('.faculties_blok4');
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('show');
+                    } else {
+                        entry.target.classList.remove('show');
+                    }
+                });
+            }, {
+                threshold: 0.1,
+            });
+
+            if (block2) observer.observe(block2);
+            if (block3) observer.observe(block3);
+            if (block4) observer.observe(block4);
+        });
+    </script>
 </head>
 
 <body>
@@ -135,20 +158,31 @@
 
     <div class="running_line2">
         <div class="running_line_content2">
+            <img class="running_line_element" src="img/running_line_element.svg" alt="" />
             <div class="running_line_text2">HES.EDU</div>
-            <img class="running_line_element" src="img/running_line_element.svg" alt="">
+            <img class="running_line_element" src="img/running_line_element.svg" alt="" />
             <div class="running_line_text2">HES.EDU</div>
-            <img class="running_line_element" src="img/running_line_element.svg" alt="">
+            <img class="running_line_element" src="img/running_line_element.svg" alt="" />
             <div class="running_line_text2">HES.EDU</div>
-            <img class="running_line_element" src="img/running_line_element.svg" alt="">
+            <img class="running_line_element" src="img/running_line_element.svg" alt="" />
             <div class="running_line_text2">HES.EDU</div>
-            <img class="running_line_element" src="img/running_line_element.svg" alt="">
+            <img class="running_line_element" src="img/running_line_element.svg" alt="" />
+            <div class="running_line_text2">HES.EDU</div>
+            <img class="running_line_element" src="img/running_line_element.svg" alt="" />
+            <div class="running_line_text2">HES.EDU</div>
+            <img class="running_line_element" src="img/running_line_element.svg" alt="" />
+            <div class="running_line_text2">HES.EDU</div>
+            <img class="running_line_element" src="img/running_line_element.svg" alt="" />
+            <div class="running_line_text2">HES.EDU</div>
+            <img class="running_line_element" src="img/running_line_element.svg" alt="" />
+            <div class="running_line_text2">HES.EDU</div>
+            <img class="running_line_element" src="img/running_line_element.svg" alt="" />
             <div class="running_line_text2">HES.EDU</div>
         </div>
     </div>
 
     <form class="form">
-        <img class="form_img" src="img/img_index/form_img.png" alt="">
+        <img class="form_img" src="img/img_index/form_img.webp" alt="">
         <div class="form_content">
             <div class="form_title">Ответим на все ваши <br> вопросы</div>
             <div class="form_inputs">
@@ -170,7 +204,7 @@
                 <img class="form_button_img" src="img/img_index/button_2_line.svg" alt="">
             </button>
         </div>
-        <img class="form_img1" src="img/img_index/form_img.png" alt="">
+        <img class="form_img1" src="img/img_index/form_img.webp" alt="">
     </form>
     
     <div class="footer">
