@@ -12,6 +12,27 @@
     <link rel="icon" type="image/png" sizes="32x32" href="img/img_article3/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/img_article3/favicon-16x16.png">
     <link rel="manifest" href="img/img_article3/site.webmanifest">
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const block2 = document.querySelector('.article3_blok2');
+            const block3 = document.querySelector('.article3_blok3');
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('show');
+                    } else {
+                        entry.target.classList.remove('show');
+                    }
+                });
+            }, {
+                threshold: 0.1,
+            });
+
+            if (block2) observer.observe(block2);
+            if (block3) observer.observe(block3);
+        });
+    </script>
 </head>
 
 <body>

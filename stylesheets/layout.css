@@ -135,6 +135,13 @@ body {
     font-size: 1.389vw;
     line-height: 1.736vw;
 }
+.index_blok1_button1 {
+    transition: transform 0.2s ease;
+}
+
+.index_blok1_button1:hover {
+    transform: scale(1.05);
+}
 .index_blok1_button2 {
     display: inline-flex;
     width: 18.472vw;
@@ -145,6 +152,22 @@ body {
     justify-content: center;
     align-items: center;
     white-space: nowrap;
+}
+.index_blok1_button2:hover, .index_blok1_button3:hover, .index_blok1_button4:hover,
+.index_blok1_button5:hover, .index_blok1_button6:hover, .index_blok1_button7:hover {
+    background-color: #FFFFFF;
+}
+.index_blok1_button2:hover .index_blok1_button2_text,
+.index_blok1_button3:hover .index_blok1_button3_text,
+.index_blok1_button4:hover .index_blok1_button4_text,
+.index_blok1_button5:hover .index_blok1_button5_text,
+.index_blok1_button6:hover .index_blok1_button6_text,
+.index_blok1_button7:hover .index_blok1_button7_text {
+    color: #000000;
+}
+.index_blok1_button2, .index_blok1_button3, .index_blok1_button4, .index_blok1_butto5,
+.index_blok1_button6, .index_blok1_button7 {
+    transition: all 0.3s ease;
 }
 .index_blok1_button3 {
     display: inline-flex;
@@ -396,6 +419,7 @@ body {
         width: 28.403vw;
         height: 21.528vw;
     }
+    
     .index_blok3_photo2 {
         height: 21.528vw;
         width: 20vw;
@@ -526,6 +550,19 @@ body {
         font-size: 1.042vw;
         line-height: 1.736vw;
     }
+    .index_blok4_card1_tag1 {
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .index_blok4_card1_tag1:hover {
+    background-color: #FFFFFF;
+    }
+    
+    .index_blok4_card1_tag1:hover .index_blok4_card1_tag1_text {
+        color: #000000;
+    }
     .index_blok4_card1_tag2 {
         display: inline-flex;
         width: 9.375vw;
@@ -544,6 +581,19 @@ body {
         color: #FFFFFF;
         font-size: 1.042vw;
         line-height: 1.736vw;
+    }
+    .index_blok4_card1_tag2 {
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .index_blok4_card1_tag2:hover {
+    background-color: #FFFFFF;
+    }
+    
+    .index_blok4_card1_tag2:hover .index_blok4_card1_tag2_text {
+        color: #000000;
     }
     .index_blok4_card1_tags {
         position: absolute;
@@ -574,6 +624,13 @@ body {
     font-size: 1.389vw;
     line-height: 1.736vw;
 }
+.index_blok4_card1_button {
+    transition: transform 0.2s ease;
+}
+
+.index_blok4_card1_button:hover {
+    transform: scale(1.05);
+}
 .index_blok4_card1_button_img {
     width: 0.972vw;
 }
@@ -603,6 +660,19 @@ body {
     font-size: 1.042vw;
     line-height: 1.736vw;
 }
+.index_blok4_card2_tag1 {
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.index_blok4_card2_tag1:hover {
+    background-color: #000000;
+}
+
+.index_blok4_card2_tag1:hover .index_blok4_card2_tag1_text {
+    color: #FFFFFF;
+}
 .index_blok4_card2_tag2 {
     display: inline-flex;
     width: 9.375vw;
@@ -621,6 +691,19 @@ body {
     color: #000000;
     font-size: 1.042vw;
     line-height: 1.736vw;
+}
+.index_blok4_card2_tag2 {
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.index_blok4_card2_tag2:hover {
+    background-color: #000000;
+}
+
+.index_blok4_card2_tag2:hover .index_blok4_card2_tag2_text {
+    color: #FFFFFF;
 }
 .index_blok4_card2_button {
     left: 20.625vw;
@@ -643,6 +726,13 @@ body {
     color: #FFFFFF;
     font-size: 1.389vw;
     line-height: 1.736vw;
+}
+.index_blok4_card2_button {
+    transition: transform 0.2s ease;
+}
+
+.index_blok4_card2_button:hover {
+    transform: scale(1.05);
 }
 .index_blok4_card2_button_img {
     width: 0.972vw;
@@ -673,6 +763,19 @@ body {
     font-size: 1.042vw;
     line-height: 1.736vw;
 }
+.index_blok4_card3_tag1 {
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.index_blok4_card3_tag1:hover {
+    background-color: #FFFFFF;
+}
+
+.index_blok4_card3_tag1:hover .index_blok4_card3_tag1_text {
+    color: #000000;
+}
 .index_blok4_card3_tag2 {
     display: inline-flex;
     width: 9.375vw;
@@ -691,6 +794,19 @@ body {
     color: #FFFFFF;
     font-size: 1.042vw;
     line-height: 1.736vw;
+}
+.index_blok4_card3_tag2 {
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.index_blok4_card3_tag2:hover {
+    background-color: #FFFFFF;
+}
+
+.index_blok4_card3_tag2:hover .index_blok4_card3_tag2_text {
+    color: #000000;
 }
 .index_blok4_card3_button {
     position: absolute;
@@ -714,6 +830,13 @@ body {
     color: #486DFF;
     font-size: 1.389vw;
     line-height: 1.736vw;
+}
+.index_blok4_card3_button {
+    transition: transform 0.2s ease;
+}
+
+.index_blok4_card3_button:hover {
+    transform: scale(1.05);
 }
 .index_blok4_card3_button_img {
     width: 0.972vw;
@@ -829,7 +952,12 @@ input:focus {
 .form_button_img {
     width: 0.972vw;
 }
-
+.form_button {
+    transition: transform 0.2s ease;
+}
+.form_button:hover {
+    transform: scale(1.05);
+}
 /* ---------------------футер------------------------- */
 
 .footer {
@@ -926,6 +1054,25 @@ input:focus {
     color: #000000;
 }
 
+.article1_blok2, .article1_blok3 {
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+
+.article1_blok2 {
+    transform: translateX(-100px);
+}
+
+.article1_blok3 {
+    transform: translateX(100px);
+}
+
+.article1_blok2.show,
+.article1_blok3.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
 /* ---------------------section-1------------------------- */
 
 .article1_blok1 {
@@ -961,6 +1108,17 @@ input:focus {
     align-items: center;
     white-space: nowrap;
 }
+.article1_blok1_button1:hover {
+    background-color: #486DFF;
+}
+
+.article1_blok1_button1:hover .article1_blok1_button1_text {
+    color: #ffffff;
+}
+
+.article1_blok1_button1 {
+    transition: all 0.3s ease;
+}
 .article1_blok1_button2 {
     display: inline-flex;
     width: 12.738vw;
@@ -971,6 +1129,15 @@ input:focus {
     justify-content: center;
     align-items: center;
     white-space: nowrap;
+}
+.article1_blok1_button2:hover {
+    background-color: #486DFF;
+}
+.article1_blok1_button2:hover .article1_blok1_button2_text {
+    color: #ffffff;
+}
+.article1_blok1_button2 {
+    transition: all 0.3s ease;
 }
 .article1_blok1_button1_text, .article1_blok1_button2_text {
     font-family: 'Roboto';
@@ -989,6 +1156,7 @@ input:focus {
     margin-top: 2.778vw;
 }
 .article1_blok1_button3 {
+    margin-left: 0.4vw;
     margin-top: 2.778vw;
     width: 17.262vw;
     height: 3.125vw;
@@ -999,6 +1167,13 @@ input:focus {
     padding: 0.694vw 1.25vw;
     gap: 0.903vw;
     white-space: nowrap;
+}
+.article1_blok1_button3 {
+    transition: transform 0.2s ease;
+}
+
+.article1_blok1_button3:hover {
+    transform: scale(1.05);
 }
 .article1_blok1_button3_text {
     font-family: 'Roboto';
@@ -1187,6 +1362,26 @@ input:focus {
 
 /* -------------------------------------article 2------------------------------------ */
 
+.article2_blok2,
+.article2_blok3 {
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+
+.article2_blok2 {
+    transform: translateX(-100px);
+}
+
+.article2_blok3 {
+    transform: translateX(100px);
+}
+
+.article2_blok2.show,
+.article2_blok3.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
 /* ---------------------section-1------------------------- */
 
 .article2_blok1 {
@@ -1224,7 +1419,17 @@ input:focus {
     align-items: center;
     white-space: nowrap;
 }
+.article2_blok1_button1:hover {
+    background-color: #486DFF;
+}
 
+.article2_blok1_button1:hover .article2_blok1_button1_text {
+    color: #ffffff;
+}
+
+.article2_blok1_button1 {
+    transition: all 0.3s ease;
+}
 .article2_blok1_button2 {
     display: inline-flex;
     width: 21.944vw;
@@ -1235,6 +1440,17 @@ input:focus {
     justify-content: center;
     align-items: center;
     white-space: nowrap;
+}
+.article2_blok1_button2:hover {
+    background-color: #486DFF;
+}
+
+.article2_blok1_button2:hover .article2_blok1_button2_text {
+    color: #ffffff;
+}
+
+.article2_blok1_button2 {
+    transition: all 0.3s ease;
 }
 .article2_blok1_button1_text,
 .article2_blok1_button2_text {
@@ -1254,6 +1470,7 @@ input:focus {
     margin-top: 2.778vw;
 }
 .article2_blok1_button3 {
+    margin-left: 0.4vw;
     margin-top: 2.778vw;
     width: 17.262vw;
     height: 3.125vw;
@@ -1264,6 +1481,13 @@ input:focus {
     padding: 0.694vw 1.25vw;
     gap: 0.903vw;
     white-space: nowrap;
+}
+.article2_blok1_button3 {
+    transition: transform 0.2s ease;
+}
+
+.article2_blok1_button3:hover {
+    transform: scale(1.05);
 }
 .article2_blok1_button3_text {
     font-family: 'Roboto';
@@ -1480,6 +1704,26 @@ input:focus {
 
 /* -------------------------------------article 3------------------------------------ */
 
+.article3_blok2,
+.article3_blok3 {
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+
+.article3_blok2 {
+    transform: translateX(-100px);
+}
+
+.article3_blok3 {
+    transform: translateX(100px);
+}
+
+.article3_blok2.show,
+.article3_blok3.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
 /* ---------------------section-1------------------------- */
 
 .article3_blok1 {
@@ -1492,7 +1736,6 @@ input:focus {
     overflow: hidden;
     position: relative;
 }
-
 .article3_blok1_title {
     padding-top: 0.486vw;
     font-family: 'Roboto';
@@ -1501,13 +1744,11 @@ input:focus {
     color: #000000;
     line-height: 6.806vw;
 }
-
 .article3_blok1_buttons {
     margin-top: 2.778vw;
     display: flex;
     gap: 1.042vw;
 }
-
 .article3_blok1_button1 {
     display: inline-flex;
     width: 13.264vw;
@@ -1519,7 +1760,28 @@ input:focus {
     align-items: center;
     white-space: nowrap;
 }
+.article3_blok1_button2:hover {
+    background-color: #486DFF;
+}
 
+.article3_blok1_button2:hover .article3_blok1_button2_text {
+    color: #ffffff;
+}
+
+.article3_blok1_button2 {
+    transition: all 0.3s ease;
+}
+.article3_blok1_button1:hover {
+    background-color: #486DFF;
+}
+
+.article3_blok1_button1:hover .article3_blok1_button1_text {
+    color: #ffffff;
+}
+
+.article3_blok1_button1 {
+    transition: all 0.3s ease;
+}
 .article3_blok1_button2 {
     display: inline-flex;
     width: 17.986vw;
@@ -1552,6 +1814,7 @@ input:focus {
 }
 
 .article3_blok1_button3 {
+    margin-left: 0.4vw;
     margin-top: 2.778vw;
     width: 17.262vw;
     height: 3.125vw;
@@ -1563,7 +1826,13 @@ input:focus {
     gap: 0.903vw;
     white-space: nowrap;
 }
+.article3_blok1_button3 {
+    transition: transform 0.2s ease;
+}
 
+.article3_blok1_button3:hover {
+    transform: scale(1.05);
+}
 .article3_blok1_button3_text {
     font-family: 'Roboto';
     font-weight: 500;
@@ -1790,6 +2059,15 @@ input:focus {
     font-size: 1.389vw;
     line-height: 1.736vw;
 }
+.faculties_blok1_button1:hover {
+    background-color: #FFFFFF;
+}
+.faculties_blok1_button1:hover .faculties_blok1_button1_text {
+    color: #000000;
+}
+.faculties_blok1_button1 {
+    transition: all 0.3s ease;
+}
 .faculties_blok1_description {
     font-family: 'Roboto';
     font-weight: 400;
@@ -1814,6 +2092,12 @@ input:focus {
     padding-left: 1.042vw;
     gap: 0.694vw;
     white-space: nowrap;
+}
+.faculties_blok1_scroll_button {
+    transition: transform 0.2s ease;
+}
+.faculties_blok1_scroll_button:hover {
+    transform: scale(1.05);
 }
 .faculties_blok1_scroll_button:active {
     transform: scale(0.98);
@@ -1917,6 +2201,15 @@ input:focus {
     top: 2.083vw;
     right: 2.083vw;
 }
+.faculties_blok2_card_tag:hover {
+    background-color: #1F4CFF;
+}
+.faculties_blok2_card_tag:hover .faculties_blok2_card_tag_text {
+    color: #ffffff;
+}
+.faculties_blok2_card_tag {
+    transition: all 0.3s ease;
+}
 .faculties_blok2_card_tag_text {
     font-family: 'Roboto';
     font-weight: 500;
@@ -2013,6 +2306,15 @@ input:focus {
     position: absolute;
     top: 2.083vw;
     left: 2.083vw;
+}
+.faculties_blok3_card_tag:hover {
+    background-color: #DAF653;
+}
+.faculties_blok3_card_tag:hover .faculties_blok3_card_tag_text {
+    color: #1F4CFF;
+}
+.faculties_blok3_card_tag {
+    transition: all 0.3s ease;
 }
 .faculties_blok3_card_tag_text {
     font-family: 'Roboto';
@@ -2111,7 +2413,15 @@ input:focus {
     top: 2.083vw;
     right: 2.083vw;
 }
-
+.faculties_blok4_card_tag:hover {
+    background-color: #000000;
+}
+.faculties_blok4_card_tag:hover .faculties_blok4_card_tag_text {
+    color: #ffffff;
+}
+.faculties_blok4_card_tag {
+    transition: all 0.3s ease;
+}
 .faculties_blok4_card_tag_text {
     font-family: 'Roboto';
     font-weight: 500;
@@ -2213,6 +2523,12 @@ input:focus {
     align-self: flex-start;
     margin-top: auto;
 }
+.wannaknow_button {
+    transition: transform 0.2s ease;
+}
+.wannaknow_button:hover {
+    transform: scale(1.05);
+}
 .wannaknow_button_text {
     font-family: 'Roboto';
     font-weight: 500;
@@ -2306,6 +2622,12 @@ input:focus {
     gap: 0.694vw;
     white-space: nowrap;
     transition: transform 0.3s ease;
+}
+.campus_blok1_scroll_button {
+    transition: transform 0.2s ease;
+}
+.campus_blok1_scroll_button:hover {
+    transform: scale(1.05);
 }
 .campus_blok1_scroll_button:active {
     transform: scale(0.98);
@@ -2423,13 +2745,19 @@ input:focus {
     cursor: pointer;
     transition: transform 0.3s ease;
 }
+.campus_blok2_festival_button, .campus_blok2_workshop_button, .campus_blok2_courses_button {
+    transition: transform 0.2s ease;
+}
+.campus_blok2_festival_button:hover, .campus_blok2_workshop_button:hover, .campus_blok2_courses_button:hover {
+    transform: scale(1.05);
+}
 .campus_blok2_festival_button:active, .campus_blok2_workshop_button:active, .campus_blok2_courses_button:active {
     transform: scale(0.98);
 }
 .campus_blok2_festival_button_text, .campus_blok2_workshop_button_text, .campus_blok2_courses_button_text {
     font-family: 'Roboto';
     font-weight: 500;
-    color: #486DFF;
+    color: #1F4CFF;
     font-size: 1.389vw;
     line-height: 1.736vw;
 }
@@ -2442,7 +2770,7 @@ input:focus {
     width: 28.472vw;
     height: 40.625vw;
     position: absolute;
-    transition: opacity 0.3s ease, z-index 0.3s ease;
+    transition: opacity 0.7s ease, z-index 0.5s ease;
 }
 .campus_blok2_courses_img1, .campus_blok2_workshop_img1, .campus_blok2_festival_img1 {
     right: 0;
@@ -2529,6 +2857,15 @@ input:focus {
     align-items: center;
     white-space: nowrap;
 }
+.shop_blok1_button1:hover {
+    background-color: #486DFF;
+}
+.shop_blok1_button1:hover .shop_blok1_button1_text {
+    color: #ffffff;
+}
+.shop_blok1_button1 {
+    transition: all 0.3s ease;
+}
 .shop_blok1_button1_text {
     font-family: 'Roboto';
     font-weight: 500;
@@ -2548,6 +2885,15 @@ input:focus {
     justify-content: center;
     align-items: center;
     white-space: nowrap;
+}
+.shop_blok1_button2:hover {
+    background-color: #486DFF;
+}
+.shop_blok1_button2:hover .shop_blok1_button2_text {
+    color: #ffffff;
+}
+.shop_blok1_button2 {
+    transition: all 0.3s ease;
 }
 .shop_blok1_button2_text {
     font-family: 'Roboto';
@@ -2590,6 +2936,12 @@ input:focus {
     gap: 0.694vw;
     white-space: nowrap;
     transition: transform 0.3s ease;
+}
+.shop_blok1_scroll_button {
+    transition: transform 0.2s ease;
+}
+.shop_blok1_scroll_button:hover {
+    transform: scale(1.05);
 }
 .shop_blok1_scroll_button:active {
     transform: scale(0.98);
@@ -2699,21 +3051,79 @@ input:focus {
     left: 0;
     z-index: 1;
 }
+.added_to_cart {
+    bottom: 2.083vw;
+    right: 2.083vw;
+    position: absolute;
+    cursor: pointer;
+    width: 13.542vw;
+    height: 3.472vw;
+    background-color: #DAF653;
+    border-radius: 2.083vw;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform: translateY(10px);
+}
+.added_to_cart.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+.shop_card_add_button.hidden {
+    opacity: 0;
+    transform: scale(0.8);
+    pointer-events: none;
+}
+.added_to_cart_text {
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #486DFF;
+    font-size: 1.389vw;
+    line-height: 1.736vw;
+}
 .shop_card_add_button {
-    transition: transform 0.3s ease;
     cursor: pointer;
     position: absolute;
     width: 3.472vw;
     height: 3.472vw;
     bottom: 2.083vw;
     right: 2.083vw;
-    z-index: 2;
+    z-index: 3;
+    opacity: 1;
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
-.shop_card_add_button:active {
-    transform: scale(0.98);
+.shop_card_add_button {
+    transition: transform 0.2s ease;
+}
+.shop_card_add_button:hover {
+    transform: scale(1.1);
 }
 
 /* -------------------------------------about------------------------------------ */
+
+.about_blok3,
+.about_blok4 {
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+
+.about_blok3 {
+    transform: translateX(-100px);
+}
+
+.about_blok4 {
+    transform: translateX(100px);
+}
+
+.about_blok3.show,
+.about_blok4.show {
+    opacity: 1;
+    transform: translateX(0);
+}
 
 /* ---------------------section1------------------------- */
 
@@ -2765,7 +3175,15 @@ input:focus {
     align-items: center;
     white-space: nowrap;
 }
-
+.about_blok1_button1:hover {
+    background-color: #FFFFFF;
+}
+.about_blok1_button1:hover .about_blok1_button1_text {
+    color: #000000;
+}
+.about_blok1_button1 {
+    transition: all 0.3s ease;
+}
 .about_blok1_button1_text {
     font-family: 'Roboto';
     font-weight: 500;
@@ -2785,6 +3203,15 @@ input:focus {
     align-items: center;
     white-space: nowrap;
 }
+.about_blok1_button2:hover {
+    background-color: #FFFFFF;
+}
+.about_blok1_button2:hover .about_blok1_button2_text {
+    color: #000000;
+}
+.about_blok1_button2 {
+    transition: all 0.3s ease;
+}
 .about_blok1_button2_text {
     font-family: 'Roboto';
     font-weight: 500;
@@ -2803,6 +3230,7 @@ input:focus {
     justify-content: center;
     align-items: center;
     white-space: nowrap;
+    transition: all 0.3s ease;
 }
 .about_blok1_button3_text {
     font-family: 'Roboto';
@@ -2810,6 +3238,13 @@ input:focus {
     color: #FFFFFF;
     font-size: 1.389vw;
     line-height: 1.736vw;
+    transition: color 0.3s ease;
+}
+.about_blok1_button3:hover {
+    background-color: #FFFFFF;
+}
+.about_blok1_button3:hover .about_blok1_button3_text {
+    color: #000000;
 }
 .about_blok1_description1 {
     font-family: 'Roboto';
@@ -2840,6 +3275,12 @@ input:focus {
     white-space: nowrap;
     transition: transform 0.3s ease;
 }
+.about_blok1_scroll_button1 {
+    transition: transform 0.2s ease;
+}
+.about_blok1_scroll_button1:hover {
+    transform: scale(1.05);
+}
 .about_blok1_scroll_button1:active {
     transform: scale(0.98);
 }
@@ -2865,11 +3306,15 @@ input:focus {
     white-space: nowrap;
     transition: transform 0.3s ease;
 }
-
+.about_blok1_scroll_button2 {
+    transition: transform 0.2s ease;
+}
+.about_blok1_scroll_button2:hover {
+    transform: scale(1.05);
+}
 .about_blok1_scroll_button2:active {
     transform: scale(0.98);
 }
-
 .about_blok1_scroll_button_text2 {
     font-family: 'Roboto';
     font-weight: 500;
@@ -2892,7 +3337,12 @@ input:focus {
     white-space: nowrap;
     transition: transform 0.3s ease;
 }
-
+.about_blok1_scroll_button3 {
+    transition: transform 0.2s ease;
+}
+.about_blok1_scroll_button3:hover {
+    transform: scale(1.05);
+}
 .about_blok1_scroll_button3:active {
     transform: scale(0.98);
 }
@@ -2975,6 +3425,15 @@ input:focus {
     justify-content: center;
     align-items: center;
     white-space: nowrap;
+}
+.about_blok2_inner_tag:hover {
+    background-color: #486DFF;
+}
+.about_blok2_inner_tag:hover .about_blok2_inner_tag_text {
+    color: #ffffff;
+}
+.about_blok2_inner_tag {
+    transition: all 0.3s ease;
 }
 .about_blok2_inner_tag_text {
     font-family: 'Roboto';
@@ -3089,6 +3548,12 @@ input:focus {
     cursor: pointer;
     transition: transform 0.3s ease;
 }
+.about_blok3_card1_button {
+    transition: transform 0.2s ease;
+}
+.about_blok3_card1_button:hover {
+    transform: scale(1.05);
+}
 .about_blok3_card1_button_text {
     font-family: 'Roboto';
     font-weight: 500;
@@ -3188,7 +3653,12 @@ input:focus {
     cursor: pointer;
     transition: transform 0.3s ease;
 }
-
+.about_blok4_card1_button {
+    transition: transform 0.2s ease;
+}
+.about_blok4_card1_button:hover {
+    transform: scale(1.05);
+}
 .about_blok4_card1_button_text {
     font-family: 'Roboto';
     font-weight: 500;
@@ -3241,6 +3711,12 @@ input:focus {
     padding-left: 1.25vw;
     gap: 0.903vw;
     white-space: nowrap;
+}
+.error_button {
+    transition: transform 0.2s ease;
+}
+.error_button:hover {
+    transform: scale(1.05);
 }
 .error_button_text {
     font-family: 'Roboto';

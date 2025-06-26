@@ -12,6 +12,49 @@
     <link rel="icon" type="image/png" sizes="32x32" href="img/img_shop/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/img_shop/favicon-16x16.png">
     <link rel="manifest" href="img/img_shop/site.webmanifest">
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Функция для обработки кликов/тапов
+            function setupCartButtons() {
+                // Находим ВСЕ кнопки на странице
+                const addButtons = document.querySelectorAll('.shop_card_add_button');
+
+                addButtons.forEach(addButton => {
+                    // Находим соответствующий блок added_to_cart для каждой кнопки
+                    const addedCart = addButton.nextElementSibling;
+
+                    // Проверяем, что следующий элемент действительно added_to_cart
+                    if (addedCart && addedCart.classList.contains('added_to_cart')) {
+                        // Обработчик для кнопки добавления
+                        const handleAdd = (e) => {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            addButton.classList.add('hidden');
+                            addedCart.classList.add('visible');
+                        };
+
+                        // Обработчик для блока "Добавлено"
+                        const handleRemove = (e) => {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            addedCart.classList.remove('visible');
+                            addButton.classList.remove('hidden');
+                        };
+
+                        // Добавляем обработчики
+                        addButton.addEventListener('click', handleAdd);
+                        addButton.addEventListener('touchstart', handleAdd);
+
+                        addedCart.addEventListener('click', handleRemove);
+                        addedCart.addEventListener('touchstart', handleRemove);
+                    }
+                });
+            }
+
+            // Инициализируем кнопки
+            setupCartButtons();
+        });
+    </script>
 </head>
 
 <body>
@@ -58,6 +101,9 @@
                     </div>
                     <img class="shop_card1_img" src="img/img_shop/shop_card1_img.webp" alt="">
                     <img class="shop_card_add_button" src="img/img_shop/shop_card_add_button.svg" alt="">
+                    <div class="added_to_cart">
+                        <span class="added_to_cart_text">Товар в корзине</span>
+                    </div>
                 </div>
                 <div class="shop_card2">
                     <div class="shop_card2_title">Кружки</div>
@@ -66,6 +112,9 @@
                     </div>
                     <img class="shop_card2_img" src="img/img_shop/shop_card2_img.webp" alt="">
                     <img class="shop_card_add_button" src="img/img_shop/shop_card_add_button.svg" alt="">
+                    <div class="added_to_cart">
+                        <span class="added_to_cart_text">Товар в корзине</span>
+                    </div>
                 </div>
                 <div class="shop_card3">
                     <div class="shop_card3_title">Худи</div>
@@ -74,6 +123,9 @@
                     </div>
                     <img class="shop_card3_img" src="img/img_shop/shop_card3_img.webp" alt="">
                     <img class="shop_card_add_button" src="img/img_shop/shop_card_add_button.svg" alt="">
+                    <div class="added_to_cart">
+                        <span class="added_to_cart_text">Товар в корзине</span>
+                    </div>
                 </div>
                 <div class="shop_card4">
                     <div class="shop_card4_title">Шоппер</div>
@@ -82,6 +134,9 @@
                     </div>
                     <img class="shop_card4_img" src="img/img_shop/shop_card4_img.webp" alt="">
                     <img class="shop_card_add_button" src="img/img_shop/shop_card_add_button.svg" alt="">
+                    <div class="added_to_cart">
+                        <span class="added_to_cart_text">Товар в корзине</span>
+                    </div>
                 </div>
                 <div class="shop_card5">
                     <div class="shop_card5_title">Рюкзак</div>
@@ -90,6 +145,9 @@
                     </div>
                     <img class="shop_card5_img" src="img/img_shop/shop_card5_img.webp" alt="">
                     <img class="shop_card_add_button" src="img/img_shop/shop_card_add_button.svg" alt="">
+                    <div class="added_to_cart">
+                        <span class="added_to_cart_text">Товар в корзине</span>
+                    </div>
                 </div>
                 <div class="shop_card6">
                     <div class="shop_card6_title">Стикеры</div>
@@ -98,6 +156,9 @@
                     </div>
                     <img class="shop_card6_img" src="img/img_shop/shop_card6_img.webp" alt="">
                     <img class="shop_card_add_button" src="img/img_shop/shop_card_add_button.svg" alt="">
+                    <div class="added_to_cart">
+                        <span class="added_to_cart_text">Товар в корзине</span>
+                    </div>
                 </div>
             </div>
         </div>
