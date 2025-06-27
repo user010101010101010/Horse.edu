@@ -78,6 +78,39 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       })
     })
+
     
+    function setupCartButtons() {
+                const addButtons = document.querySelectorAll('.shop_card_add_button');
+
+                addButtons.forEach(addButton => {
+                    const addedCart = addButton.nextElementSibling;
+
+                    if (addedCart && addedCart.classList.contains('added_to_cart')) {
+
+                        const handleAdd = (e) => {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            addButton.classList.add('hidden');
+                            addedCart.classList.add('visible');
+                        };
+
+                        const handleRemove = (e) => {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            addedCart.classList.remove('visible');
+                            addButton.classList.remove('hidden');
+                        };
+
+                        addButton.addEventListener('click', handleAdd);
+                        addButton.addEventListener('touchstart', handleAdd);
+
+                        addedCart.addEventListener('click', handleRemove);
+                        addedCart.addEventListener('touchstart', handleRemove);
+                    }
+                });
+            }
+
+            setupCartButtons();
 
   }
